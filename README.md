@@ -22,8 +22,8 @@ Note: this implementation works with extra volume data-container.
 
 ## Selenoid with VNC and SelenoidUI
 
-1. Download required browser images (chrome 65, chrome 64, firefox 59, firefox 58):
-    - `docker pull selenoid/vnc:chrome_65.0 && docker pull selenoid/vnc:chrome_64.0 && docker pull selenoid/vnc:firefox_59.0 && docker pull selenoid/vnc:firefox_58.0`
+1. Download required browser images (chrome 67, chrome 65, firefox 61, firefox 59):
+    - `docker pull selenoid/vnc:chrome_67.0 && docker pull selenoid/vnc:chrome_65.0 && docker pull selenoid/vnc:firefox_61.0 && docker pull selenoid/vnc:firefox_59.0`
 2. Run `selenoid` and `selenoid-ui` via `docker-compose`:
     - `docker-compose -f selenoid-vnc.yaml up -d`
 
